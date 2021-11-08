@@ -1,0 +1,52 @@
+{
+  "name": "simple-web-piano",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.tsx",
+  "scripts": {
+    "test": "jest",
+    "start": "npx webpack serve --config webpack.config.js",
+    "build": "npx webpack build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "@babel/plugin-transform-runtime": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "@babel/preset-react": "^7.14.5",
+    "@babel/preset-typescript": "^7.15.0",
+    "@babel/runtime": "^7.15.4",
+    "@mui/styled-engine-sc": "^5.0.3",
+    "@types/jest": "^27.0.2",
+    "@types/react": "^17.0.27",
+    "@types/react-dom": "^17.0.9",
+    "@types/react-transition-group": "^4.4.3",
+    "@types/styled-components": "^5.1.15",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^6.4.0",
+    "html-webpack-plugin": "^5.3.2",
+    "jest": "^27.3.1",
+    "sass-loader": "^12.1.0",
+    "style-loader": "^3.3.0",
+    "ts-jest": "^27.0.7",
+    "ts-loader": "^9.2.6",
+    "typescript": "^4.4.4",
+    "webpack": "^5.57.1",
+    "webpack-cli": "^4.9.0",
+    "webpack-dev-server": "^4.3.1"
+  },
+  "dependencies": {
+    "@material-ui/styles": "^4.11.4",
+    "@mui/material": "^5.0.4",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-toolbox": "^2.0.0-beta.13",
+    "react-transition-group": "^4.4.2",
+    "sass": "^1.43.2",
+    "styled-media-query": "^2.1.2",
+    "tone": "^14.8.26",
+    "ts-node": "^10.4.0"
+  }
+}
